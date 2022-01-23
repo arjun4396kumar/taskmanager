@@ -1,0 +1,126 @@
+html {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background: #F8F9FA;
+}
+
+.container {
+    margin-top: 10px;
+}
+
+.bg-light {
+    background: #ffffff !important;
+    border: 1px solid #F8F9FA;
+    border-radius: 5px;
+}
+
+.move-right {
+    position: absolute;
+    right: 10px;
+}
+
+.task-card {
+    background: #ffffff;
+    border: 1px solid #CACBD0;
+    width: 104%;
+    text-align: left;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: -4px;
+    margin-top: 10px;
+}
+
+h6,
+h5 {
+    font-weight: 400 !important;
+}
+
+.task-id {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.task-id div {
+    width: 45%;
+}
+
+.col-md-3 {
+    border-right: 1px solid #F7F7F7;
+    margin-top: 10px !important;
+    max-width: 24% !important;
+    background: #F1F3F5;
+    height: 90vh;
+    overflow: auto;
+}
+
+.task-detail {
+    display: flex;
+    gap: 10px;
+}
+
+.row {
+    margin-top: 10px;
+    background: #ffff;
+    width: 100%;
+    text-align: center;
+    margin-left: initial;
+    border-radius: 5px;
+    border: 1px solid #F8F9FA;
+    height: 90vh;
+    gap: 10px;
+}
+
+.error-msg {
+    color: red
+}
+
+.input-error {
+    border: 1px solid red;
+}
+
+.icon {
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+}
+
+.prt {
+    text-align: center;
+    width: 70px;
+    background: #58BAD7;
+    border-radius: 5px;
+    color: #fff;
+    padding-top: 3px;
+}
+
+.errorClass {
+    background: #E65D65 !important;
+}
+
+.taskClass {
+    background: #214360 !important;
+}
+
+#button1,
+#update {
+    float: right;
+}
+
+.type {
+    width: 45px;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    padding-top: 3px;
+}
+
+.dropdown {
+    height: 34px !important;
+    font-size: 12px;
+}
